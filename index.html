@@ -1,9 +1,385 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figma to hmml lamok</title>
+    <title>Lesson Header</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="logo">Lesson<span>.</span></div>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Pricing</a>
+        <a href="#">Reviews</a>
+      </nav>
+
+      <div class="auth-buttons">
+        <a href="#" class="btn-signup">Sign Up</a>
+      </div>
+    </header>
+    <!-- //------ Phần Hero--------------- -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="asset/css/img/2.jpg" alt="Student" />
+
+        <div class="badge-container">
+          <div class="badge-item">
+            <div class="icon icon-ui">🎨</div>
+            <div>
+              <small>20 Courses</small>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+
+          <div class="badge-item">
+            <div class="icon icon-dev">💻</div>
+            <div>
+              <small>20 Courses</small>
+              <p>Developer</p>
+            </div>
+          </div>
+
+          <div class="badge-item">
+            <div class="icon icon-mkt">📈</div>
+            <div>
+              <small>30 Courses</small>
+              <p>Marketing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <h1>Learn without limits and spread knowledge.</h1>
+        <p>
+          Build new skills for that "this is my year" feeling with courses,
+          certificates, and degrees from world-class universities and companies.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#" class="btn-yellow">See Courses</a>
+          <a href="#" class="btn-watch"
+            ><span class="play-icon">▶</span> Watch Video</a
+          >
+        </div>
+
+        <div class="recent-tag">Recent engagement</div>
+        <div class="stats">
+          <div class="stat-item">
+            <strong>50K</strong> <span>Students</span>
+          </div>
+          <div class="stat-item"><strong>70+</strong> <span>Courses</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- //------------------------------------------------- -->
+    <!-- //----------------- phần popular  -->
+    <section class="popular">
+      <div class="popular-header">
+        <div>
+          <h2>Our popular courses</h2>
+          <p>
+            Build new skills with new trendy courses and shine for the next
+            future career.
+          </p>
+        </div>
+        <div class="slider-btns">
+          <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="course-grid">
+        <div class="course-card">
+          <img
+            src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg"
+            alt="Design"
+          />
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Basic web design</h3>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.5</span>
+            </div>
+            <p>
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="card-footer">
+              <span class="price">$250</span>
+              <a href="#" class="btn-book">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <img
+            src="https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg"
+            alt="UIUX"
+          />
+          <div class="card-body">
+            <div class="card-info">
+              <h3>UI/UX design</h3>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+            </div>
+            <p>
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="card-footer">
+              <span class="price">$230</span>
+              <a href="#" class="btn-book black">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <img
+            src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg"
+            alt="Web App"
+          />
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Web App design</h3>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p>
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="card-footer">
+              <span class="price">$280</span>
+              <a href="#" class="btn-book black">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //----- phần feedback------ -->
+    <section class="feedback">
+      <div class="feedback-container">
+        <div class="student-info">
+          <div class="avatar">
+            <img
+              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+              alt="Peter Moor"
+            />
+            <!-- <img
+              src="https://images.pexels.com/photos/2449600/pexels-photo-2449600.png"
+              alt="Lam Perry"
+            />
+            <img
+              src="https://images.pexels.com/photos/29550833/pexels-photo-29550833.jpeg"
+              alt="Lan Anh"
+            /> -->
+          </div>
+          <div class="student-detail">
+            <h3>Peter Moor</h3>
+            <p>Student of Web Design</p>
+          </div>
+          <div class="pagination">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="feedback-content">
+          <div class="quote-icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <blockquote>
+            "Not only does my resume look impressive—filled with the names and
+            logos of world-class institutions—but these certificates also bring
+            me closer to my career goals by validating the skills I've learned."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- // code phần features thứ 2  nha  -->
+    <section class="features">
+      <div class="features-container">
+        <div class="features-images">
+          <div class="img-box img-1">
+            <img
+              src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg"
+              alt="Working"
+            />
+          </div>
+          <div class="img-box img-2">
+            <img
+              src="https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+              alt="Studying"
+            />
+          </div>
+        </div>
+
+        <div class="features-content">
+          <h2>Learner outcomes through our awesome platform</h2>
+          <p>
+            87% of people learning for professional development report career
+            benefits like getting a promotion, a raise, or starting a new
+            career.
+          </p>
+          <span class="report-link">Lesson Impact Report (2022)</span>
+          <div class="features-action">
+            <a href="#" class="btn-yellow">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //=== code phần feaures thứ 3 nha ==== -->
+    <section class="features-alt">
+      <div class="features-container">
+        <div class="features-content">
+          <h2>
+            Take the next step toward your personal and professional goals with
+            Lesson.
+          </h2>
+          <p>
+            Take the next step toward. Join now to receive personalized and more
+            recommendations from the full Coursera catalog.
+          </p>
+          <div class="features-action">
+            <a href="#" class="btn-yellow">Join Now</a>
+          </div>
+        </div>
+
+        <div class="features-image-large">
+          <img
+            src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg"
+            alt="Professional Goals"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- //=== our blog nha ===== -->
+    <section class="blog">
+      <div class="blog-header">
+        <h2>Our blog</h2>
+        <p>
+          Read our regular travel blog and know the latest update of tour and
+          travel
+        </p>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-img">
+            <img
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+              alt="Web Designer"
+            />
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">21 November 2021</span>
+            <h3>How to become a pro web designer in 2022 and get remot job?</h3>
+            <a href="#" class="btn-read-more yellow">Read More</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img">
+            <img
+              src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg"
+              alt="Remote Job"
+            />
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">21 November 2021</span>
+            <h3>Ready to become a pro web designer and work from anywhere?</h3>
+            <a href="#" class="btn-read-more black">Read More</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img">
+            <img
+              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+              alt="Learning"
+            />
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">21 November 2021</span>
+            <h3>
+              What does it take to become a professional web designer and work
+              remotely?
+            </h3>
+            <a href="#" class="btn-read-more black">Read More</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="pagination-dots">
+        <span class="dot"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+      <!-- //==== phần này là footer nha là xong dự án lun ===== -->
+      <div class="footer-outer">
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-column brand-col">
+              <div class="logo">Lesson<span>.</span></div>
+              <p>
+                Need to help for your dream Career? trust us. With Lesson, study
+                becomes a lot easier with us.
+              </p>
+              <div class="social-links">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <div class="footer-column">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Our Pricing</a></li>
+                <li><a href="#">Latest News</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Support</h3>
+              <ul>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Address</h3>
+              <ul class="contact-info">
+                <li>
+                  <strong>Location:</strong> 27 Division St, New York, NY 10002,
+                  USA
+                </li>
+                <li><strong>Email:</strong> email@gmail.com</li>
+                <li><strong>Phone:</strong> + 000 1234 567 890</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
 </html>
